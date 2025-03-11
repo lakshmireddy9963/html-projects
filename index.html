@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Login here</h3>
+        <form action="login" method="post">
+            <table>
+                <tr>
+                    <td>Username:</td>
+                    <td>
+                        <input type="text" placeholder="Email" name="username"> <!-- Added a 'name' attribute -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td>
+                        <input type="password" placeholder="Password" name="password"> <!-- Changed input type to 'password' -->
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"> <!-- Merged cells for the button -->
+                        <button type="submit">Login</button> <!-- Fixed button structure -->
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
