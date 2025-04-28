@@ -1,17 +1,39 @@
 body {
-    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/029/470/675/small_2x/ai-generated-ai-generative-purple-pink-color-sunset-evening-nature-outdoor-lake-with-mountains-landscape-background-graphic-art-photo.jpg"); 
+    background-image: url("https://t3.ftcdn.net/jpg/03/91/46/10/360_F_391461057_5P0BOWl4lY442Zoo9rzEeJU0S2c1WDZR.jpg");
     background-size: cover;
     background-position: center;
-    margin: 0; 
-    font-family: Arial, sans-serif; 
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 .container {
-    color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    color: white;
     text-align: center;
-    height: 100vh; 
+    padding: 20px;
+}
+
+input[type="text"], input[type="file"] {
+    width: 25%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.domains {
+    text-align: left;
+    display: inline-block;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
 }
