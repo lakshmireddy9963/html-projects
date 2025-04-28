@@ -3,33 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Background Image</title>
+    <title>Register</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h3>Login here</h3>
-        <form action="login" method="post">
-            <table>
-                <tr>
-                    <td>Username:</td>
-                    <td>
-                        <input type="text" placeholder="Email" name="username"> <!-- Added a 'name' attribute -->
-                    </td>
-                </tr>
-                <tr>
-                    <td>Password:</td>
-                    <td>
-                        <input type="password" placeholder="Password" name="password"> <!-- Changed input type to 'password' -->
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2"> <!-- Merged cells for the button -->
-                        <button type="submit">Login</button> <!-- Fixed button structure -->
-                    </td>
-                </tr>
-            </table>
+        <h3>Register Here</h3>
+        <form>
+            <label for="name">Candidate Name:</label><br>
+            <input type="text"><br><br>
+
+            <label for="contact">Contact Number:</label><br>
+            <input type="text"><br><br>
+
+            <label for="email">Email ID:</label><br>
+            <input type="text"><br><br>
+
+            <label for="college">College Name:</label><br>
+            <input type="text"><br><br>
+
+            <label for="department">Department:</label><br>
+            <input type="text"><br><br>
+
+            <label for="year">Year Of Passing Out:</label><br>
+            <input type="text"><br><br>
+
+            <label for="percentage">Percentage:</label><br>
+            <input type="text"><br><br>
+
+            <label>Domains:</label><br>
+            <div class="domains">
+                <input type="radio" name="domain" id="web" value="Web Technology">
+                <label for="web">Web Technology</label><br>
+
+                <input type="radio" name="domain" id="mern" value="MERN Stack">
+                <label for="mern">MERN Stack</label><br>
+
+                <input type="radio" name="domain" id="appdev" value="App Development">
+                <label for="appdev">App Development</label><br>
+
+                <input type="radio" name="domain" id="python" value="Python Developer">
+                <label for="python">Python Developer</label><br>
+
+                <input type="radio" name="domain" id="java" value="Java Developer">
+                <label for="java">Java Developer</label><br>
+
+                <input type="radio" name="domain" id="analytics" value="Data Analytics">
+                <label for="analytics">Data Analytics</label><br>
+
+                <input type="radio" name="domain" id="datasci" value="Data Science">
+                <label for="datasci">Data Science</label><br>
+
+                <input type="radio" name="domain" id="ai" value="AI & ML">
+                <label for="ai">AI & ML</label><br>
+
+                <input type="radio" name="domain" id="hr" value="HR">
+                <label for="hr">HR</label><br>
+
+                <input type="radio" name="domain" id="bd" value="Business Development">
+                <label for="bd">Business Development</label><br>
+
+                <input type="radio" name="domain" id="finance" value="Finance">
+                <label for="finance">Finance</label><br>
+            </div><br>
+
+            <label for="duration">Duration:</label><br>
+            <input type="text"><br><br>
+
+            <label for="resume">Resume:</label><br>
+            <input type="file"><br><br>
+
+            <label for="linkedin">LinkedIn Profile:</label><br>
+            <input type="text"><br><br>
+
+            <label for="github">GitHub Profile:</label><br>
+            <input type="text"><br><br>
+
+            <label for="referred">Referred By:</label><br>
+            <input type="text"><br><br>
+
+            <button type="submit">Submit</button>
         </form>
     </div>
 </body>
 </html>
+u
